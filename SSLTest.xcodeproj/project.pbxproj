@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		651B98F313CA67C9007E0F46 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 651B98F213CA67C9007E0F46 /* Cocoa.framework */; };
+		651B98FD13CA67C9007E0F46 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 651B98FB13CA67C9007E0F46 /* InfoPlist.strings */; };
+		651B98FF13CA67C9007E0F46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 651B98FE13CA67C9007E0F46 /* main.m */; };
+		651B990313CA67C9007E0F46 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 651B990113CA67C9007E0F46 /* Credits.rtf */; };
+		651B990613CA67C9007E0F46 /* SSLTestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 651B990513CA67C9007E0F46 /* SSLTestAppDelegate.m */; };
+		651B990913CA67CA007E0F46 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 651B990713CA67CA007E0F46 /* MainMenu.xib */; };
+		651B991C13CA6992007E0F46 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 651B991B13CA6992007E0F46 /* AsyncSocket.m */; };
+		651B991F13CA69AC007E0F46 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 651B991E13CA69AB007E0F46 /* Security.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		651B98EE13CA67C9007E0F46 /* SSLTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSLTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		651B98F213CA67C9007E0F46 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		651B98F513CA67C9007E0F46 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		651B98F613CA67C9007E0F46 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		651B98F713CA67C9007E0F46 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		651B98FA13CA67C9007E0F46 /* SSLTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SSLTest-Info.plist"; sourceTree = "<group>"; };
+		651B98FC13CA67C9007E0F46 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		651B98FE13CA67C9007E0F46 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		651B990013CA67C9007E0F46 /* SSLTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SSLTest-Prefix.pch"; sourceTree = "<group>"; };
+		651B990213CA67C9007E0F46 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		651B990413CA67C9007E0F46 /* SSLTestAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSLTestAppDelegate.h; sourceTree = "<group>"; };
+		651B990513CA67C9007E0F46 /* SSLTestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSLTestAppDelegate.m; sourceTree = "<group>"; };
+		651B990813CA67CA007E0F46 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		651B991A13CA6992007E0F46 /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AsyncSocket.h; path = ../../../Documents/Development/EFILM/eVue/AsyncSocket.h; sourceTree = "<group>"; };
+		651B991B13CA6992007E0F46 /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AsyncSocket.m; path = ../../../Documents/Development/EFILM/eVue/AsyncSocket.m; sourceTree = "<group>"; };
+		651B991E13CA69AB007E0F46 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		651B98EB13CA67C9007E0F46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				651B991F13CA69AC007E0F46 /* Security.framework in Frameworks */,
+				651B98F313CA67C9007E0F46 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		651B98E313CA67C9007E0F46 = {
+			isa = PBXGroup;
+			children = (
+				651B98F813CA67C9007E0F46 /* SSLTest */,
+				651B98F113CA67C9007E0F46 /* Frameworks */,
+				651B98EF13CA67C9007E0F46 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		651B98EF13CA67C9007E0F46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				651B98EE13CA67C9007E0F46 /* SSLTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		651B98F113CA67C9007E0F46 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				651B991E13CA69AB007E0F46 /* Security.framework */,
+				651B98F213CA67C9007E0F46 /* Cocoa.framework */,
+				651B98F413CA67C9007E0F46 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		651B98F413CA67C9007E0F46 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				651B98F513CA67C9007E0F46 /* AppKit.framework */,
+				651B98F613CA67C9007E0F46 /* CoreData.framework */,
+				651B98F713CA67C9007E0F46 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		651B98F813CA67C9007E0F46 /* SSLTest */ = {
+			isa = PBXGroup;
+			children = (
+				651B991A13CA6992007E0F46 /* AsyncSocket.h */,
+				651B991B13CA6992007E0F46 /* AsyncSocket.m */,
+				651B990413CA67C9007E0F46 /* SSLTestAppDelegate.h */,
+				651B990513CA67C9007E0F46 /* SSLTestAppDelegate.m */,
+				651B990713CA67CA007E0F46 /* MainMenu.xib */,
+				651B98F913CA67C9007E0F46 /* Supporting Files */,
+			);
+			path = SSLTest;
+			sourceTree = "<group>";
+		};
+		651B98F913CA67C9007E0F46 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				651B98FA13CA67C9007E0F46 /* SSLTest-Info.plist */,
+				651B98FB13CA67C9007E0F46 /* InfoPlist.strings */,
+				651B98FE13CA67C9007E0F46 /* main.m */,
+				651B990013CA67C9007E0F46 /* SSLTest-Prefix.pch */,
+				651B990113CA67C9007E0F46 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		651B98ED13CA67C9007E0F46 /* SSLTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 651B990C13CA67CA007E0F46 /* Build configuration list for PBXNativeTarget "SSLTest" */;
+			buildPhases = (
+				651B98EA13CA67C9007E0F46 /* Sources */,
+				651B98EB13CA67C9007E0F46 /* Frameworks */,
+				651B98EC13CA67C9007E0F46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSLTest;
+			productName = SSLTest;
+			productReference = 651B98EE13CA67C9007E0F46 /* SSLTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		651B98E513CA67C9007E0F46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Mochi Development Inc.";
+			};
+			buildConfigurationList = 651B98E813CA67C9007E0F46 /* Build configuration list for PBXProject "SSLTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 651B98E313CA67C9007E0F46;
+			productRefGroup = 651B98EF13CA67C9007E0F46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				651B98ED13CA67C9007E0F46 /* SSLTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		651B98EC13CA67C9007E0F46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				651B98FD13CA67C9007E0F46 /* InfoPlist.strings in Resources */,
+				651B990313CA67C9007E0F46 /* Credits.rtf in Resources */,
+				651B990913CA67CA007E0F46 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		651B98EA13CA67C9007E0F46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				651B98FF13CA67C9007E0F46 /* main.m in Sources */,
+				651B990613CA67C9007E0F46 /* SSLTestAppDelegate.m in Sources */,
+				651B991C13CA6992007E0F46 /* AsyncSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		651B98FB13CA67C9007E0F46 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				651B98FC13CA67C9007E0F46 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		651B990113CA67C9007E0F46 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				651B990213CA67C9007E0F46 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		651B990713CA67CA007E0F46 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				651B990813CA67CA007E0F46 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		651B990A13CA67CA007E0F46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		651B990B13CA67CA007E0F46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		651B990D13CA67CA007E0F46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSLTest/SSLTest-Prefix.pch";
+				INFOPLIST_FILE = "SSLTest/SSLTest-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		651B990E13CA67CA007E0F46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSLTest/SSLTest-Prefix.pch";
+				INFOPLIST_FILE = "SSLTest/SSLTest-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		651B98E813CA67C9007E0F46 /* Build configuration list for PBXProject "SSLTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				651B990A13CA67CA007E0F46 /* Debug */,
+				651B990B13CA67CA007E0F46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		651B990C13CA67CA007E0F46 /* Build configuration list for PBXNativeTarget "SSLTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				651B990D13CA67CA007E0F46 /* Debug */,
+				651B990E13CA67CA007E0F46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 651B98E513CA67C9007E0F46 /* Project object */;
+}

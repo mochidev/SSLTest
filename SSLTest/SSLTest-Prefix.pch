@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'SSLTest' target in the 'SSLTest' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
